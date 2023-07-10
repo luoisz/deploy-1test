@@ -1,4 +1,4 @@
-FROM npt13/mltbkore
+FROM drzawlinmg/stable:sm
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
 COPY . .
