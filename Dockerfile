@@ -1,4 +1,4 @@
-FROM drzawlinmg/stable:mltbra
+FROM drzawlinmg/cbnew
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
 COPY . .
